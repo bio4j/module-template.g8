@@ -49,7 +49,7 @@ case object $name;format="word"$ImportedData extends ImportedDataBundle(
 
 case object $name;format="word"$Module extends ModuleBundle($name;format="word"$API, $name;format="word"$ImportedData)
 
-case object $name;format="word"$Metadata extends generated.metadata.Bio4j$name;format="Camel"$()
+case object $name;format="word"$Metadata extends generated.metadata.$name;format="Camel"$Module()
 
 case object $name;format="word"$Release extends ReleaseBundle(
   ObjectAddress("bio4j.releases", 
