@@ -53,7 +53,7 @@ case object $name;format="word"$Metadata extends generated.metadata.$name;format
 
 case object $name;format="word"$Release extends ReleaseBundle(
   ObjectAddress("bio4j.releases", 
-                "$name;format="snake"$/v" + $name;format="word"$Metadata.version.stripSuffix("-SNAPSHOT")), 
+                "$name;format="lower,snake"$/v" + $name;format="word"$Metadata.version.stripSuffix("-SNAPSHOT")), 
   $name;format="word"$Module
 )
 
